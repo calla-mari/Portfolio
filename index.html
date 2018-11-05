@@ -11,7 +11,7 @@
     <title>CallaMari</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -21,7 +21,8 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
-    <link href="css/agency.min.css" rel="stylesheet">
+    <!-- <link href="css/agency.min.css" rel="stylesheet"> -->
+    <link href="css/agency.css" rel="stylesheet">
 
   </head>
 
@@ -44,10 +45,10 @@
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Skills</a>
+              <a class="nav-link js-scroll-trigger" href="#story">My Story</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+              <a class="nav-link js-scroll-trigger" href="#services">Skills</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -56,99 +57,57 @@
         </div>
       </div>
     </nav>
-
+    
     <!-- Header -->
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
           <div class="intro-lead-in">Welcome To My Portfolio!</div>
           <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Find Out More</a>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#about">Find Out More</a>
         </div>
       </div>
     </header>
     
     <!-- About -->
-    <section id="about">
-      <div class="container">
+    <section class="bg-purple" id="about">
+      <div class="container fullwidth">
         <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">About</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <div class="col-md-4" style="float: left">
+            <img src="img/portfolio/rain.jpg" style="float: left; vertical-align:middle" height="500px" class="rain">
           </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <ul class="timeline">
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>2009-2011</h4>
-                    <h4 class="subheading">Our Humble Beginnings</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                  </div>
-                </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-7 text-center aboutMe" style="float: right">
+            <h2 class="section-heading text-uppercase" style="color: white">About Me</h2>
+            <h3 class="section-subheading text-light">Full stack web developer experience problem solving, critical thinking, managing interns, and coordinate interdepartmental workflow.  Previously a Formulation/Analytical Chemist with 10+ years of pharmaceutical experience in drug substance and drug product development, looking for a fulfilling career with less geographical restriction. </h3>
+          </br>
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://github.com/calla-mari">
+                  <i class="fab fa-github-alt"></i>
+                </a>
               </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>March 2011</h4>
-                    <h4 class="subheading">An Agency is Born</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                  </div>
-                </div>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/marissa-callahan/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
               </li>
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>December 2012</h4>
-                    <h4 class="subheading">Transition to Full Service</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                  </div>
-                </div>
+              <li class="list-inline-item">
+                <a href="https://500px.com/callamari">
+                  <i class="fab fa-500px"></i>
+                </a>
               </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>July 2014</h4>
-                    <h4 class="subheading">Phase Two Expansion</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <h4>Be Part
-                    <br>Of Our
-                    <br>Story!</h4>
-                  </div>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/callamari.photography/">
+                  <i class="fab fa-instagram"></i>
+                </a>
               </li>
             </ul>
           </div>
         </div>
       </div>
     </section>
-
+    
     <!-- Portfolio Grid -->
     <section class="bg-light" id="portfolio">
       <div class="container">
@@ -247,17 +206,119 @@
       </div>
     </section>
     
+    <!-- Story -->
+    <section id="story">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">My Story</h2>
+            <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/headshot.jpg" alt="">
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image pills">
+                  <img class="rounded-circle img-fluid" src="img/about/pills.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2007-2018</h4>
+                    <h4 class="subheading">Formulation Chemist</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Develop formulation for pre-clinical and clinical triails</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/callamari1.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2015</h4>
+                    <h4 class="subheading">The beginning of CallaMari Photography</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Turning passion into pay</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/GA.png" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>September 2018</h4>
+                    <h4 class="subheading">Web Development Immersive</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Full Stack Developer in training</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <a href="img/about/Resume181020.pdf">
+                  <div class="timeline-image resume">
+                    <h4>Download
+                      <br>Full
+                      <br>Resume</h4>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Services -->
-    <section id="services">
+    <section class="bg-light" id="services">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Skills</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
           </div>
         </div>
         <div class="row text-center">
-          <div class="col-md-4">
+          <div class="col-lg-3 col-md-6 text-center">
+              <div class="service-box mt-5 mx-auto">
+                <img src="img/skill/html.png" width="50px" class="htmlIcon">
+                <h3 class="mb-3">HTML</h3>
+                <!-- <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p> -->
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="service-box mt-5 mx-auto">
+                <img src="img/skill/css.png" width="50px" class="cssIcon">
+                <h3 class="mb-3">CSS</h3>
+                <!-- <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p> -->
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="service-box mt-5 mx-auto">
+                <img src="img/skill/js.png" width="50px" class="jsIcon">
+                <h3 class="mb-3">JavaScript</h3>
+                <!-- <p class="text-muted mb-0">We update dependencies to keep things fresh.</p> -->
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="service-box mt-5 mx-auto">
+                <img src="img/skill/ruby.png" width="50px" class="ruby.pngIcon">
+                <h3 class="mb-3">Ruby</h3>
+                <!-- <p class="text-muted mb-0">You have to make your websites with love these days!</p> -->
+              </div>
+            </div>
+          <!-- <div class="col-md-4">
             <span class="fa-stack fa-4x">
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
@@ -280,103 +341,13 @@
             </span>
             <h4 class="service-heading">Web Security</h4>
             <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
 
-    <!-- Team -->
-    <section class="bg-light" id="team">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/1.jpg" alt="">
-              <h4>Kay Garland</h4>
-              <p class="text-muted">Lead Designer</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/2.jpg" alt="">
-              <h4>Larry Parker</h4>
-              <p class="text-muted">Lead Marketer</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/3.jpg" alt="">
-              <h4>Diana Pertersen</h4>
-              <p class="text-muted">Lead Developer</p>
-              <ul class="list-inline social-buttons">
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="#">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- Clients -->
+    <!-- Clients
     <section class="py-5">
       <div class="container">
         <div class="row">
@@ -402,15 +373,15 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Contact -->
     <section id="contact">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Contact Us</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 class="section-heading text-uppercase">Let's Get In Touch!</h2>
+            <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
           </div>
         </div>
         <div class="row">
@@ -453,29 +424,35 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Your Website 2018</span>
-          </div>
+          <div class="col-md-4"></div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
+                <a href="https://github.com/calla-mari">
+                  <i class="fab fa-github-alt"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/marissa-callahan/">
                   <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://500px.com/callamari">
+                  <i class="fab fa-500px"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/callamari.photography/">
+                  <i class="fab fa-instagram"></i>
                 </a>
               </li>
             </ul>
           </div>
           <div class="col-md-4">
+            <span class="copyright" style="float: right">Copyright &copy; CallaMari 2018</span>
+          </div>
+          <!-- <div class="col-md-4">
             <ul class="list-inline quicklinks">
               <li class="list-inline-item">
                 <a href="#">Privacy Policy</a>
@@ -484,7 +461,7 @@
                 <a href="#">Terms of Use</a>
               </li>
             </ul>
-          </div>
+          </div> -->
         </div>
       </div>
     </footer>

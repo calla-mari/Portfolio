@@ -21,6 +21,21 @@ a:hover {
   color: rgb(130, 67, 140);
 }
 
+.rain {
+  display: flex;
+  object-fit: cover;
+  justify-content: center;
+  overflow: hidden;
+  width:100%;
+  height:100%;
+}
+.rain img {
+  flex-shrink: 0;
+  object-fit: cover;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 .text-primary {
   color: rgb(92, 48, 99) !important;
 }
@@ -36,7 +51,20 @@ h6 {
 }
 
 section {
-  padding: 100px 0;
+  padding: 50px 0;
+}
+
+#about {
+  padding: 0;
+}
+
+.aboutMe {
+  justify-content: center;
+  margin: auto;
+}
+
+#resume:hover {
+  color: rgb(130, 67, 140);
 }
 
 section h2.section-heading {
@@ -56,7 +84,7 @@ section h3.section-subheading {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 70px 0;
   }
 }
 
@@ -82,8 +110,8 @@ section h3.section-subheading {
 }
 
 .btn-primary:active, .btn-primary:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(169, 105, 157, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(169, 105, 157, 0.5) !important;
 }
 
 ::-moz-selection {
@@ -178,7 +206,7 @@ header.masthead {
   color: white;
   background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
   background-size: cover;
 }
@@ -455,6 +483,10 @@ header.masthead .intro-text .intro-heading {
   background-color: rgb(92, 48, 99);
 }
 
+.timeline-image.resume:hover {
+  background-color: rgb(130, 67, 140);
+}
+
 .timeline > li .timeline-image h4 {
   font-size: 10px;
   line-height: 14px;
@@ -687,7 +719,7 @@ ul.social-buttons li a {
   color: white;
   border-radius: 100%;
   outline: none;
-  background-color: #212529;
+  background-color: rgb(130, 67, 140);
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {

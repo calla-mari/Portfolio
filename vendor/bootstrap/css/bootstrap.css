@@ -6142,6 +6142,10 @@ button.bg-light:focus {
   background-color: #dae0e5 !important;
 }
 
+.bg-purple {
+  background-color: rgb(92, 48, 99) !important;
+}
+
 .bg-dark {
   background-color: #343a40 !important;
 }
