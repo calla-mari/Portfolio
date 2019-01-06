@@ -268,13 +268,14 @@ header.masthead .intro-text .intro-heading {
 
 #portfolio .portfolio-item {
   right: 0;
-  margin: 0 0 15px;
+  margin: 0 15px 30px 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
   display: block;
-  max-width: 400px;
+  /* max-width: 500px; */
   margin: 0 auto;
   cursor: pointer;
 }
@@ -314,12 +315,12 @@ header.masthead .intro-text .intro-heading {
 }
 
 #portfolio .portfolio-item .portfolio-caption {
-  max-width: 400px;
+  /* max-width: 500px; */
   margin: 0 auto;
   padding: 25px;
   text-align: center;
   background-color: #fff;
-}
+  }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
   margin: 0;
@@ -339,7 +340,7 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
-    margin: 0 0 30px;
+    margin: 0 15px 30px 15px;
   }
 }
 
@@ -502,7 +503,13 @@ header.masthead .intro-text .intro-heading {
 }
 
 .timeline-image.resume:hover {
-  background-color: rgb(130, 67, 140);
+  border-color: rgb(130, 67, 140);
+  box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.2), 0px 0px 25px 0 rgba(0, 0, 0, 0.19);
+}
+
+.timeline-image.photo:hover {
+  border-color: rgb(130, 67, 140);
+  box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.2), 0px 0px 25px 0 rgba(0, 0, 0, 0.19);
 }
 
 .timeline > li .timeline-image h4 {
@@ -660,7 +667,7 @@ section#contact .section-heading {
 }
 
 section#contact .form-group {
-  margin-bottom: 25px;
+  margin: 0 20px 25px 20px;
 }
 
 section#contact .form-group input,
